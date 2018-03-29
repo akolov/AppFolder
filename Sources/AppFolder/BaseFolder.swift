@@ -29,7 +29,7 @@ extension BaseFolder {
      let caches = AppFolder.Library.Caches
      ```
      */
-    public static var Library: Library {
+    public static var library: Library {
         return Lib(baseURL: baseURL)
     }
 
@@ -39,7 +39,7 @@ extension BaseFolder {
      # Important # 
       - Only documents and other data that is user-generated, or that cannot otherwise be recreated by your application, should be stored here and will be automatically backed up by iCloud. 
      */
-    public static var Documents: Documents {
+    public static var documents: Documents {
         return Docs(baseURL: baseURL)
     }
     
